@@ -1,2 +1,2 @@
 # DLPICSFROMCL
-Automatic Download pics from CL Society
+Automaticly Download pics from CL Society
