@@ -16,7 +16,7 @@ for yeshu in range(4,7):
     soup = BeautifulSoup(res.text,'lxml')
     for res in soup.find_all('a'):
         res1=str(res.get('href'))
-        if(res1[0:16]=='htm_data/16/1704'):
+        if(res1[0:16]=='htm_data/16/1705'):
             res2=strinfo.sub('http://www.t66y.com/htm_data',res1)
             print(res2)
             time.sleep(random.uniform(1,3))
